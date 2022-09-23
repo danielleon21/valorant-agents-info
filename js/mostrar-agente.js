@@ -71,7 +71,7 @@
         contenedorHabilidades.classList.add('contenedor-habilidades')
 
         const headingHabilidades = document.createElement('h2')
-        headingHabilidades.textContent = 'Abilities'
+        headingHabilidades.textContent = 'Habilidades'
 
         abilities.forEach(abilitie => {
             const { description, displayName, displayIcon } = abilitie
