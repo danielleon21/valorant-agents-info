@@ -67,7 +67,6 @@
     }
 
     function mostrarHabilidades({ abilities }) {
-        console.log(abilities)
         const contenedorHabilidades = document.createElement('div')
         contenedorHabilidades.classList.add('contenedor-habilidades')
 
